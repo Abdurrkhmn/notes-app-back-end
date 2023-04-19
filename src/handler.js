@@ -119,3 +119,6 @@ const addNoteHandler = (request, h) => {
      };
     
 module.exports = { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler };
+
+/*Masing-masing fungsi handler akan menangani request secara spesifik, serta mengelola data catatan yang diambil/disimpan dari/ke array notes yang berada pada berkas notes.js.
+*/

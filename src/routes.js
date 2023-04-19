@@ -1,4 +1,10 @@
-const { addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandler, deleteNoteByIdHandler } = require('./handler');
+const { 
+  addNoteHandler, 
+  getAllNotesHandler, 
+  getNoteByIdHandler, 
+  editNoteByIdHandler, 
+  deleteNoteByIdHandler
+       } = require('./handler');
 const routes = [
     {
         method: 'POST',
@@ -30,3 +36,6 @@ const routes = [
   ];
    
   module.exports = routes;
+  
+  /*Seperti yang Anda lihat, untuk fungsi handler pada berkas routes.js di ambil dari berkas handler.js.
+  Tentu, seluruh logika dalam request handling ada di berkas ini handler.js*/
