@@ -1,7 +1,7 @@
 const routes = (handler) => [
    {
     method:'POST',
-    path: '/notes'
+    path: '/notes',
     handler: handler.postNoteHandler, // postNoteHandler hanya menerima dan menyimpan "satu" note.
    },
    {
