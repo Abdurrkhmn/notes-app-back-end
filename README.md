@@ -1,2 +1,2 @@
 # notes-app-back-end
-this backend intermediate 
+ini adalah kelanjutan backend pemula ke menengah
