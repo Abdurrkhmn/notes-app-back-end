@@ -94,7 +94,7 @@ const addNoteHandler = (request, h) => {
       response.code(404);
       return response;
      };
-     /*Spread operator pada kode
+     /*Spread operator pada kode 
       di atas digunakan untuk mempertahankan nilai */
      const deleteNoteByIdHandler = (request, h) => {
       //menghapus catatan
