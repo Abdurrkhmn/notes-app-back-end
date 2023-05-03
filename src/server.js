@@ -17,6 +17,7 @@ const init = async () => {
       },
     },
   });
+  
 
   await server.register({
     plugin: notes,
