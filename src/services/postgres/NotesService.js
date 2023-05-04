@@ -1,8 +1,8 @@
 const { Pool } = require('pg');
 const { nanoid } = require('nanoid');
 const InvariantError = require('../../exceptions/InvariantError');
-const { mapDBToModel } = require('../../utils');
 const NotFoundError = require('../../exceptions/NotFoundError');
+const { mapDBToModel } = require('../../utils');
 
 
 class NotesService {
@@ -46,6 +46,7 @@ class NotesService {
        
           return result.rows.map(mapDBToModel)[0];
         }
+      
     async editNoteById ( id , { title , body , tags }) {  
         const updatedAt = new Date().toISOString();
         const query = {
